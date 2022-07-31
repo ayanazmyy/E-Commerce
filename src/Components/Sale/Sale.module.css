@@ -1,0 +1,21 @@
+.sale-container {
+    background-image: url(../../img/banner/b2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 100px;
+}
+
+.sale-content h5,
+.sale-content h2 {
+    color: white;
+}
+
+.sale-content span {
+    color: red;
+}
+
+.explore-btn {
+    color: #333 !important;
+    font-weight: 600 !important;
+}

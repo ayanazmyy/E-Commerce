@@ -1,0 +1,49 @@
+.header {
+    background-image: url(../../img/hero4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.header .firstHeading {
+    color: rgb(63, 63, 63) !important;
+}
+
+.header .secondHeading {
+    color: teal;
+}
+
+.header p {
+    color: rgb(63, 63, 63) !important;
+}
+
+.contentContainer {
+    transform: translateY(40vh)
+}
+
+.contentContainer h2 {
+    font-size: 50px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .header {
+        height: 50vh;
+        background-position: center center;
+    }
+
+    .contentContainer {
+        transform: translateY(50%);
+    }
+
+    .contentContainer h2 {
+        font-size: 25px;
+        transform: translate(-50%, 100px);
+        margin-left: 30px ;
+    }
+}
+
+
+

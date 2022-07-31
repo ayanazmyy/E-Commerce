@@ -1,0 +1,24 @@
+.contact {
+    background-color: rgb(17, 17, 48);
+}
+
+.contact .bg-img {
+    background-image: url(../../img/banner/b14.png);
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+.contact span {
+    color: rgb(255, 230, 0);
+}
+
+.contact {
+    color: white;
+}
+
+.contact .signup-btn {
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
